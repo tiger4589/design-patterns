@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{8B9FBDED-896A-423E-BBCE-429826E10CB3}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Tester", "Structural Patterns\Decorator Pattern\Decorator.Tester\Decorator.Tester.csproj", "{D6D147F7-00A8-4108-8BB8-A0A7B4BFD9D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Example", "Structural Patterns\Decorator Pattern\Decorator.Example\Decorator.Example.csproj", "{7A7D6C18-71CB-4249-A936-BDD445417B34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderPattern", "BuilderPattern", "{26502DC5-8EE8-4FAB-9B04-D60AD9E4A6A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.Example", "CreationalPatterns\BuilderPattern\Builder.Example\Builder.Example.csproj", "{07808F86-CB2E-4B19-B592-1B7D858DDA8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,10 @@ Global
 		{7A7D6C18-71CB-4249-A936-BDD445417B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A7D6C18-71CB-4249-A936-BDD445417B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A7D6C18-71CB-4249-A936-BDD445417B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07808F86-CB2E-4B19-B592-1B7D858DDA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07808F86-CB2E-4B19-B592-1B7D858DDA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07808F86-CB2E-4B19-B592-1B7D858DDA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07808F86-CB2E-4B19-B592-1B7D858DDA8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +45,10 @@ Global
 		{7813FFBC-2EF2-42F5-B716-E8F66BCE0BC8} = {B051B907-9331-419F-8B95-81843306B0BB}
 		{D6D147F7-00A8-4108-8BB8-A0A7B4BFD9D0} = {7813FFBC-2EF2-42F5-B716-E8F66BCE0BC8}
 		{7A7D6C18-71CB-4249-A936-BDD445417B34} = {7813FFBC-2EF2-42F5-B716-E8F66BCE0BC8}
+		{26502DC5-8EE8-4FAB-9B04-D60AD9E4A6A0} = {8B9FBDED-896A-423E-BBCE-429826E10CB3}
+		{07808F86-CB2E-4B19-B592-1B7D858DDA8C} = {26502DC5-8EE8-4FAB-9B04-D60AD9E4A6A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1675D37-CD36-4B34-9462-26BDB13D4982}
 	EndGlobalSection
 EndGlobal
